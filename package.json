@@ -1,0 +1,27 @@
+{ "name": "pimatic-plugin-template",
+  "description": "The plugin description",
+  "author": "Your Name <you@example.com> (http://your-website)",
+  "main": "my-plugin",
+  "files": [
+    "denon-remote.coffee",
+    "README.md",
+    "denon-remote-config-schema.coffee"
+  ],
+  "version": "0.0.1",
+  "homepage": "https://github.com/thexperiments/pimatic-denon-remote",
+  "private": true,
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/thexperiments/pimatic-denon-remote.git"
+  },
+  "configSchema": "denon-remote-config-schema.coffee",
+  "dependencies": {
+  },
+  "peerDependencies": {
+    "pimatic": "0.8.*"
+  },
+  "engines": {
+    "node": ">0.8.x",
+    "npm": ">1.1.x"
+  }
+}
